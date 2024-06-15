@@ -1,8 +1,18 @@
 {
   "item.backrooms_mod.pink_garnet": "Pink Garnet",
   "item.backrooms_mod.raw_pink_garnet": "Raw Pink Garnet",
+
   "block.backrooms_mod.pink_garnet_block": "Pink Garnet Block",
-  "block.backrooms_mod.raw_pink_garnet_block": "Raw Pink Garnet Block",
+  "block.backrooms_mod.end_pink_garnet_ore_block": "End Stone Pink Garnet ore Block",
+  "block.backrooms_mod.pink_garnet_ore_block": "Pink Garnet ore Block",
+  "block.backrooms_mod.nether_pink_garnet_ore_block": "Nether Pink Garnet ore Block",
+  "block.backrooms_mod.deepslate_pink_garnet_ore_block": "Deepslate Pink Garnet ore Block",
+
+
   "block.backrooms_mod.backroom_wall": "Backrooms Wall",
-  "block.backrooms_mod.backroom_floor": "Backrooms Floor"
+  "block.backrooms_mod.backroom_floor": "Backrooms Floor",
+
+
+  "itemgroup.pink_garnet_group": "Pink Garnet Group",
+  "itemgroup.backrooms_mod_group": "Backroom Mod"
 }

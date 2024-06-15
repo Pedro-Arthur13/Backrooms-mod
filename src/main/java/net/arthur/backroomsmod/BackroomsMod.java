@@ -1,6 +1,7 @@
 package net.arthur.backroomsmod;
 
 import net.arthur.backroomsmod.block.ModBlocks;
+import net.arthur.backroomsmod.item.ModItemGroup;
 import net.arthur.backroomsmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,6 +14,8 @@ public class BackroomsMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroup.registerItemGroups();
+
         ModItems.registerModItems();
         ModBlocks.registerModBlocks();
 	}

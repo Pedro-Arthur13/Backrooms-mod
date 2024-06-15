@@ -16,10 +16,20 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block RAW_PINK_GARNET_BLOCK = registerBlock("raw_pink_garnet_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+
+    public static final Block DEEPSLATE_PINK_GARNET_ORE_BLOCK = registerBlock("deepslate_pink_garnet_ore_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block END_PINK_GARNET_ORE_BLOCK = registerBlock("end_pink_garnet_ore_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block NETHER_PINK_GARNET_ORE_BLOCK = registerBlock("nether_pink_garnet_ore_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block PINK_GARNET_ORE_BLOCK = registerBlock("pink_garnet_ore_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block BACKROOM_WALL = registerBlock("backroom_wall",
             new Block(FabricBlockSettings.copyOf(Blocks.BEDROCK)));
     public static final Block BACKROOM_FLOOR = registerBlock("backroom_floor",
             new Block(FabricBlockSettings.copyOf(Blocks.BEDROCK)));
+
 
 
     private static Block registerBlock(String name, Block block){
