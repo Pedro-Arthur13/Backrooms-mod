@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category":"misc",
+  "pattern":[
+  "###",
+  "###",
+  "###"
+],
+  "key": {
+    "#": {
+      "item": "backrooms_mod:pink_garnet"
+    }},
+    "result": {
+      "item": "backrooms_mod:pink_garnet_block"
+    }
+  }

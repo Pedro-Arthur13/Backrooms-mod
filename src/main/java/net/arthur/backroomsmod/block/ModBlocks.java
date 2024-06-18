@@ -29,6 +29,8 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.BEDROCK)));
     public static final Block BACKROOM_FLOOR = registerBlock("backroom_floor",
             new Block(FabricBlockSettings.copyOf(Blocks.BEDROCK)));
+    public static final Block BACKROOM_LIGHT = registerBlock("backroom_light",
+            new Block(FabricBlockSettings.copyOf(Blocks.BEDROCK).luminance(9)));
 
 
 
