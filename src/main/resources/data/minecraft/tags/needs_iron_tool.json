@@ -1,0 +1,11 @@
+{
+  "replace" : false,
+  "values":[
+    "backrooms_mod:deepslate_pink_garnet_ore",
+    "backrooms_mod:pink_garnet_ore",
+    "backrooms_mod:pink_garnet_block",
+    "backrooms_mod:raw_pink_garnet_block",
+    "backrooms_mod:end_pink_garnet_ore"
+  ]
+
+}
