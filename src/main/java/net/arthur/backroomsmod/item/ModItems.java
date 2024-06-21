@@ -2,6 +2,7 @@ package net.arthur.backroomsmod.item;
 
 import net.arthur.backroomsmod.BackroomsMod;
 import net.arthur.backroomsmod.block.ModBlocks;
+import net.arthur.backroomsmod.item.custom.MetalDetectorItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -18,6 +19,8 @@ public class ModItems {
 
     public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet",
             new Item(new FabricItemSettings()));
+    public static final Item METAL_DETECTOR = registerItem("metal_detector",
+            new MetalDetectorItem(new FabricItemSettings().maxDamage(256)));
 
     private static Item registerItem(String name,Item item){
         // Registrando o item passado pelo parametro

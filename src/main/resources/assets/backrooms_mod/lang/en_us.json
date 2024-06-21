@@ -1,6 +1,7 @@
 {
   "item.backrooms_mod.pink_garnet": "Pink Garnet",
   "item.backrooms_mod.raw_pink_garnet": "Raw Pink Garnet",
+  "item.backrooms_mod.metal_detector": "Metal Detector",
 
   "block.backrooms_mod.pink_garnet_block": "Pink Garnet Block",
   "block.backrooms_mod.raw_pink_garnet_block": "Raw Pink Garnet Block",
@@ -8,6 +9,8 @@
   "block.backrooms_mod.pink_garnet_ore_block": "Pink Garnet ore Block",
   "block.backrooms_mod.nether_pink_garnet_ore_block": "Nether Pink Garnet ore Block",
   "block.backrooms_mod.deepslate_pink_garnet_ore_block": "Deepslate Pink Garnet ore Block",
+
+  "item.backrooms_mod.metal_detector.no_valuables": "No valuables found ",
 
 
   "block.backrooms_mod.backroom_wall": "Backrooms Wall",
