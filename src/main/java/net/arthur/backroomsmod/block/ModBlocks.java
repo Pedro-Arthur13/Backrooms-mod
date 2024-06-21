@@ -1,6 +1,7 @@
 package net.arthur.backroomsmod.block;
 
 import net.arthur.backroomsmod.BackroomsMod;
+import net.arthur.backroomsmod.block.custom.SoundBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -31,6 +32,8 @@ public class ModBlocks {
     public static final Block PINK_GARNET_ORE_BLOCK = registerBlock("pink_garnet_ore_block",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.IRON_ORE),
                     UniformIntProvider.create(3,5)));
+    public static final Block SOUND_BLOCK = registerBlock("sound_block",
+            new SoundBlock(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
     public static final Block BACKROOM_WALL = registerBlock("backroom_wall",
             new Block(FabricBlockSettings.copyOf(Blocks.BEDROCK)));
     public static final Block BACKROOM_FLOOR = registerBlock("backroom_floor",

@@ -9,12 +9,14 @@
   "block.backrooms_mod.pink_garnet_ore_block": "Pink Garnet ore Block",
   "block.backrooms_mod.nether_pink_garnet_ore_block": "Nether Pink Garnet ore Block",
   "block.backrooms_mod.deepslate_pink_garnet_ore_block": "Deepslate Pink Garnet ore Block",
+  "block.backrooms_mod.sound_block": "Sound Block",
 
   "item.backrooms_mod.metal_detector.no_valuables": "No valuables found ",
 
 
   "block.backrooms_mod.backroom_wall": "Backrooms Wall",
   "block.backrooms_mod.backroom_floor": "Backrooms Floor",
+  "block.backrooms_mod.backroom_light": "Backrooms Light",
 
 
   "itemgroup.pink_garnet_group": "Pink Garnet Group",
