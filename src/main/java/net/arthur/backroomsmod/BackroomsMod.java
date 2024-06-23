@@ -3,6 +3,7 @@ package net.arthur.backroomsmod;
 import net.arthur.backroomsmod.block.ModBlocks;
 import net.arthur.backroomsmod.item.ModItemGroup;
 import net.arthur.backroomsmod.item.ModItems;
+import net.arthur.backroomsmod.util.ModRegistries;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -18,5 +19,6 @@ public class BackroomsMod implements ModInitializer {
 
         ModItems.registerModItems();
         ModBlocks.registerModBlocks();
+		ModRegistries.registerModStuffs();
 	}
 }

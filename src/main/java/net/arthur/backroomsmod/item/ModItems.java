@@ -21,6 +21,14 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static final Item METAL_DETECTOR = registerItem("metal_detector",
             new MetalDetectorItem(new FabricItemSettings().maxDamage(256)));
+    
+    public static final Item CAULIFLOWER = registerItem("cauliflower",
+            new Item(new FabricItemSettings().food(ModFoodComponents.CAULIFLOWER)));
+    public static final Item PEAT_BRICK = registerItem("peat_brick",
+            new Item(new FabricItemSettings()));
+    
+    public static final Item EAT_DIAMOND_PICKAXE = registerItem("eat_diamond_pickaxe",
+            new Item(new FabricItemSettings().food(ModFoodComponents.EAT_DIAMOND_PICKAXE)));
 
     private static Item registerItem(String name,Item item){
         // Registrando o item passado pelo parametro

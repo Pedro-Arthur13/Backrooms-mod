@@ -21,6 +21,10 @@ public class ModItemGroup {
 
                     entries.add(ModItems.METAL_DETECTOR);
                     entries.add(ModBlocks.SOUND_BLOCK);
+                    entries.add(ModItems.CAULIFLOWER);
+                    entries.add(ModItems.EAT_DIAMOND_PICKAXE);
+
+                    entries.add(ModItems.PEAT_BRICK);
 
                     entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
                     entries.add(ModBlocks.PINK_GARNET_BLOCK);

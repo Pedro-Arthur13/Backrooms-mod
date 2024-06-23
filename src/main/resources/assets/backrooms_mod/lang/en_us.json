@@ -12,6 +12,10 @@
   "block.backrooms_mod.sound_block": "Sound Block",
 
   "item.backrooms_mod.metal_detector.no_valuables": "No valuables found ",
+  "item.backrooms_mod.cauliflower": "Cauliflower",
+  "item.backrooms_mod.eat_diamond_pickaxe": "Diamond Pickaxe",
+
+  "item.backrooms_mod.peat_brick": "Peat Brick",
 
 
   "block.backrooms_mod.backroom_wall": "Backrooms Wall",
@@ -20,5 +24,10 @@
 
 
   "itemgroup.pink_garnet_group": "Pink Garnet Group",
-  "itemgroup.backrooms_mod_group": "Backroom Mod"
+  "itemgroup.backrooms_mod_group": "Backroom Mod",
+
+  "tooltip.backrooms_mod.metal_detector.tooltip.shift": "Right click on blocks to find a valuable ores",
+  "tooltip.backrooms_mod.metal_detector.tooltip": "Press SHIFT for more Information",
+  "tooltip.backrooms_mod.sound_block.tooltip": "Plays a SUS sound"
+
 }
