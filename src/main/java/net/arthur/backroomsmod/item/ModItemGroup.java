@@ -33,6 +33,13 @@ public class ModItemGroup {
                     entries.add(ModBlocks.NETHER_PINK_GARNET_ORE_BLOCK);
                     entries.add(ModBlocks.DEEPSLATE_PINK_GARNET_ORE_BLOCK);
 
+                    entries.add(ModBlocks.PINK_GARNET_STAIRS);
+                    entries.add(ModBlocks.PINK_GARNET_SLAB);
+                    entries.add(ModBlocks.PINK_GARNET_BUTTON);
+                    entries.add(ModBlocks.PINK_GARNET_PRESSURE_PLATE);
+
+
+
             }).build());
     public static final ItemGroup BACKROOMS_MOD = Registry.register(Registries.ITEM_GROUP,
             new Identifier(BackroomsMod.MOD_ID,"backrooms_mod_group"),

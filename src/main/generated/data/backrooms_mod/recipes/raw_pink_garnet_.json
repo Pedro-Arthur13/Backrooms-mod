@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "backrooms_mod:pink_garnet"
+    },
+    "S": {
+      "item": "minecraft:stone"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "SPS",
+    "SSS"
+  ],
+  "result": {
+    "item": "backrooms_mod:raw_pink_garnet"
+  },
+  "show_notification": true
+}

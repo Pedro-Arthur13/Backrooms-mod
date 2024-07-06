@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "backrooms_mod:block/pink_garnet_block",
+    "side": "backrooms_mod:block/pink_garnet_block",
+    "top": "backrooms_mod:block/pink_garnet_block"
+  }
+}

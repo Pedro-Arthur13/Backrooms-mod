@@ -1,5 +1,6 @@
 package net.arthur.backroomsmod.item.custom;
 
+import net.arthur.backroomsmod.util.ModTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
@@ -74,10 +75,6 @@ public class MetalDetectorItem extends Item {
     }
 
     private boolean isValuableBlock(BlockState blockState) {
-        return blockState.getBlock() == Blocks.IRON_ORE ||
-                blockState.getBlock() == Blocks.GOLD_ORE
-                || blockState.getBlock() == Blocks.DIAMOND_ORE ||
-                blockState.getBlock() == Blocks.REDSTONE_ORE ||
-                blockState.getBlock() == Blocks.LAPIS_ORE;
+        return blockState.isIn(ModTags.Blocks.METAL_DETECTOR_VALUABLE_BLOCKS);
     }
 }
