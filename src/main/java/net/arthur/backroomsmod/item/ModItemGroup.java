@@ -26,6 +26,12 @@ public class ModItemGroup {
 
                     entries.add(ModItems.PEAT_BRICK);
 
+                    entries.add(ModItems.PINK_GARNET_SWORD);
+                    entries.add(ModItems.PINK_GARNET_PICKAXE);
+                    entries.add(ModItems.PINK_GARNET_HOE);
+                    entries.add(ModItems.PINK_GARNET_SHOVEL);
+                    entries.add(ModItems.PINK_GARNET_AXE);
+
                     entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
                     entries.add(ModBlocks.PINK_GARNET_BLOCK);
                     entries.add(ModBlocks.PINK_GARNET_ORE_BLOCK);
@@ -37,6 +43,11 @@ public class ModItemGroup {
                     entries.add(ModBlocks.PINK_GARNET_SLAB);
                     entries.add(ModBlocks.PINK_GARNET_BUTTON);
                     entries.add(ModBlocks.PINK_GARNET_PRESSURE_PLATE);
+                    entries.add(ModBlocks.PINK_GARNET_FENCE);
+                    entries.add(ModBlocks.PINK_GARNET_GATE);
+                    entries.add(ModBlocks.PINK_GARNET_WALL);
+                    entries.add(ModBlocks.PINK_GARNET_TRAPDOOR);
+                    entries.add(ModBlocks.PINK_GARNET_DOOR);
 
 
 

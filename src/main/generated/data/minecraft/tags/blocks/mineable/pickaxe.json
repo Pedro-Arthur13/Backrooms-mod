@@ -5,9 +5,15 @@
     "backrooms_mod:end_pink_garnet_ore_block",
     "backrooms_mod:pink_garnet_ore_block",
     "backrooms_mod:nether_pink_garnet_ore_block",
+    "backrooms_mod:deepslate_pink_garnet_ore_block",
     "backrooms_mod:raw_pink_garnet_block",
     "backrooms_mod:pink_garnet_stairs",
     "backrooms_mod:pink_garnet_pressure_plate",
-    "backrooms_mod:pink_garnet_slab"
+    "backrooms_mod:pink_garnet_slab",
+    "backrooms_mod:pink_garnet_gate",
+    "backrooms_mod:pink_garnet_fence",
+    "backrooms_mod:pink_garnet_trapdoor",
+    "backrooms_mod:pink_garnet_door",
+    "backrooms_mod:pink_garnet_wall"
   ]
 }

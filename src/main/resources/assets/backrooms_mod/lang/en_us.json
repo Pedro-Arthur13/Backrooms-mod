@@ -13,12 +13,25 @@
 
   "block.backrooms_mod.pink_garnet_stairs": "Pink Garnet Stair",
   "block.backrooms_mod.pink_garnet_slab": "Pink Garnet Slab",
+  "block.backrooms_mod.pink_garnet_button": "Pink Garnet Button",
+  "block.backrooms_mod.pink_garnet_pressure_plate": "Pink Garnet Pressure Plate",
+  "block.backrooms_mod.pink_garnet_fence": "Pink Garnet Fence",
+  "block.backrooms_mod.pink_garnet_gate": "Pink Garnet Gate",
+  "block.backrooms_mod.pink_garnet_wall": "Pink Garnet Wall",
+  "block.backrooms_mod.pink_garnet_door": "Pink Garnet Door",
+  "block.backrooms_mod.pink_garnet_trapdoor": "Pink Garnet Trapdoor",
 
   "item.backrooms_mod.metal_detector.no_valuables": "No valuables found ",
   "item.backrooms_mod.cauliflower": "Cauliflower",
   "item.backrooms_mod.eat_diamond_pickaxe": "Diamond Pickaxe",
 
   "item.backrooms_mod.peat_brick": "Peat Brick",
+
+  "item.backrooms_mod.pink_garnet_sword": "Pink Garnet Sword",
+  "item.backrooms_mod.pink_garnet_pickaxe": "Pink Garnet Pickaxe",
+  "item.backrooms_mod.pink_garnet_shovel": "Pink Garnet Shovel",
+  "item.backrooms_mod.pink_garnet_hoe": "Pink Garnet Hoe",
+  "item.backrooms_mod.pink_garnet_axe": "Pink Garnet Axe",
 
 
   "block.backrooms_mod.backroom_wall": "Backrooms Wall",

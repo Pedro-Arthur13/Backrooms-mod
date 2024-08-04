@@ -37,6 +37,13 @@ public class ModModelProvider extends FabricModelProvider {
         pinkGarnetTexturePool.slab(ModBlocks.PINK_GARNET_SLAB);
         pinkGarnetTexturePool.pressurePlate(ModBlocks.PINK_GARNET_PRESSURE_PLATE);
         pinkGarnetTexturePool.button(ModBlocks.PINK_GARNET_BUTTON);
+        pinkGarnetTexturePool.fence(ModBlocks.PINK_GARNET_FENCE);
+        pinkGarnetTexturePool.fenceGate(ModBlocks.PINK_GARNET_GATE);
+        pinkGarnetTexturePool.wall(ModBlocks.PINK_GARNET_WALL);
+
+        //Para a Door e a Trapdoor é necessário uma textura de item e de bloco(top and botton)
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.PINK_GARNET_TRAPDOOR);
+        blockStateModelGenerator.registerDoor(ModBlocks.PINK_GARNET_DOOR);
 
     }
 
@@ -50,5 +57,13 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.CAULIFLOWER, Models.GENERATED); // Item 2d
         itemModelGenerator.register(ModItems.EAT_DIAMOND_PICKAXE, Models.GENERATED); // Item 2d
         itemModelGenerator.register(ModItems.METAL_DETECTOR, Models.GENERATED); // Item 2d
+
+        itemModelGenerator.register(ModItems.PINK_GARNET_SWORD, Models.HANDHELD); // Precisa ser handheld pra ser mostrado da forma correta em terceira pesoa
+        itemModelGenerator.register(ModItems.PINK_GARNET_PICKAXE, Models.HANDHELD); // Precisa ser handheld pra ser mostrado da forma correta em terceira pesoa
+        itemModelGenerator.register(ModItems.PINK_GARNET_SHOVEL, Models.HANDHELD); // Precisa ser handheld pra ser mostrado da forma correta em terceira pesoa
+        itemModelGenerator.register(ModItems.PINK_GARNET_AXE, Models.HANDHELD); // Precisa ser handheld pra ser mostrado da forma correta em terceira pesoa
+        itemModelGenerator.register(ModItems.PINK_GARNET_HOE, Models.HANDHELD); // Precisa ser handheld pra ser mostrado da forma correta em terceira pesoa
+
+
     }
 }

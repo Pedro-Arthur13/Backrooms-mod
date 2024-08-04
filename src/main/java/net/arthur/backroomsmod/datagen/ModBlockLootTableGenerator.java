@@ -17,6 +17,11 @@ public class ModBlockLootTableGenerator extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PINK_GARNET_STAIRS); // Drop itself
         addDrop(ModBlocks.PINK_GARNET_PRESSURE_PLATE); // Drop itself
         addDrop(ModBlocks.PINK_GARNET_BUTTON); // Drop itself
+        addDrop(ModBlocks.PINK_GARNET_FENCE); // Drop itself
+        addDrop(ModBlocks.PINK_GARNET_WALL); // Drop itself
+        addDrop(ModBlocks.PINK_GARNET_GATE); // Drop itself
+        addDrop(ModBlocks.PINK_GARNET_TRAPDOOR); // Drop itself
+        addDrop(ModBlocks.PINK_GARNET_DOOR, doorDrops(ModBlocks.PINK_GARNET_DOOR));
         addDrop(ModBlocks.PINK_GARNET_SLAB,slabDrops(ModBlocks.PINK_GARNET_SLAB)); //Isso aqui pq quando vc tem duas slabs em um bloco e quebra ele vai dropar 2 slabs
 
         addDrop(ModBlocks.PINK_GARNET_ORE_BLOCK,oreDrops(ModBlocks.PINK_GARNET_ORE_BLOCK,
