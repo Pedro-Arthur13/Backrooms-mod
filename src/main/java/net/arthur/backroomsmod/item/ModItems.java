@@ -42,6 +42,9 @@ public class ModItems {
     public static final Item PINK_GARNET_PAXEL = registerItem("pink_garnet_paxel",
             new PaxelItem(ModToolMaterial.PINK_GARNET,0,0,new FabricItemSettings()));
 
+    public static final Item PINK_GARNET_HELMET = registerItem("pink_garnet_helmet",
+            new PaxelItem(ModToolMaterial.PINK_GARNET,0,0,new FabricItemSettings()));
+
     public static final Item EAT_DIAMOND_PICKAXE = registerItem("eat_diamond_pickaxe",
             new Item(new FabricItemSettings().food(ModFoodComponents.EAT_DIAMOND_PICKAXE)));
 
