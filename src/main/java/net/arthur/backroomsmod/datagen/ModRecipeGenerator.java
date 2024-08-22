@@ -32,6 +32,22 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.PINK_GARNET),conditionsFromItem(ModItems.PINK_GARNET))
                 .offerTo(exporter,new Identifier(getRecipeName(ModItems.RAW_PINK_GARNET) + "_")); //Pega o mesmo nome do item
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.PINK_GARNET_BUTTON) // First is the result
+                .pattern("   ")
+                .pattern(" P ")
+                .pattern("   ")
+                .input('P',ModItems.PINK_GARNET)
+                .criterion(hasItem(ModItems.PINK_GARNET),conditionsFromItem(ModItems.PINK_GARNET)) // Critério para ter Pink Garnet no inventário
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.PINK_GARNET_BUTTON) + "_"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.PINK_GARNET_SWORD) // First is the result
+                .pattern(" P ")
+                .pattern(" P ")
+                .pattern(" M ")
+                .input('P',ModItems.PINK_GARNET)
+                .input('M',Items.STICK)
+                .criterion(hasItem(ModItems.PINK_GARNET),conditionsFromItem(ModItems.PINK_GARNET))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.PINK_GARNET_SWORD) + "_"));
 
                 //Receita reversivel de bloco
                 offerReversibleCompactingRecipes(exporter,RecipeCategory.MISC,ModItems.PINK_GARNET,
@@ -55,13 +71,6 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
 
                 createFenceGateRecipe(ModBlocks.PINK_GARNET_GATE, Ingredient.ofItems(ModItems.PINK_GARNET));
 
-                ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.PINK_GARNET_BUTTON) // First is the result
-                .pattern("SSS")
-                .pattern("SPS")
-                .pattern("SSS")
-                .input('P',ModItems.PINK_GARNET)
-                .criterion(hasItem(ModItems.PINK_GARNET),conditionsFromItem(ModItems.PINK_GARNET)) // Critério para ter Pink Garnet no inventário
-                .offerTo(exporter);
 
 
 

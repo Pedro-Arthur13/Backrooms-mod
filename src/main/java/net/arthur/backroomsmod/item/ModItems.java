@@ -4,6 +4,7 @@ import net.arthur.backroomsmod.BackroomsMod;
 import net.arthur.backroomsmod.block.ModBlocks;
 import net.arthur.backroomsmod.block.custom.PaxelItem;
 import net.arthur.backroomsmod.item.custom.MetalDetectorItem;
+import net.arthur.backroomsmod.item.custom.ModPoisonSwordItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -28,7 +29,7 @@ public class ModItems {
     public static final Item PEAT_BRICK = registerItem("peat_brick",
             new Item(new FabricItemSettings()));
     public static final Item PINK_GARNET_SWORD = registerItem("pink_garnet_sword",
-            new SwordItem(ModToolMaterial.PINK_GARNET,4,10f,new FabricItemSettings()));
+            new ModPoisonSwordItem(ModToolMaterial.PINK_GARNET,4,10f,new FabricItemSettings()));
     public static final Item PINK_GARNET_PICKAXE = registerItem("pink_garnet_pickaxe",
             new PickaxeItem(ModToolMaterial.PINK_GARNET,1,10f,new FabricItemSettings()));
     public static final Item PINK_GARNET_SHOVEL = registerItem("pink_garnet_shovel",
@@ -37,6 +38,7 @@ public class ModItems {
             new HoeItem(ModToolMaterial.PINK_GARNET,100,10f,new FabricItemSettings()));
     public static final Item PINK_GARNET_AXE = registerItem("pink_garnet_axe",
             new AxeItem(ModToolMaterial.PINK_GARNET,5,-2f,new FabricItemSettings()));
+
     public static final Item PINK_GARNET_PAXEL = registerItem("pink_garnet_paxel",
             new PaxelItem(ModToolMaterial.PINK_GARNET,0,0,new FabricItemSettings()));
 

@@ -1,5 +1,11 @@
-// 1.20.1	2024-07-06T17:06:34.1858789	Backrooms Mod/Tags for minecraft:block
-d9b4e360138d5aadd87db0be044f27d317fda717 data\minecraft\tags\blocks\needs_iron_tool.json
-db6827545cd47ff7c2b1bf148e2e8e92d3dfb0bd data\minecraft\tags\blocks\needs_diamond_tool.json
-7d9e747a0fc7bfa33e4cbc3aab8ba7772b191ca0 data\minecraft\tags\blocks\mineable\pickaxe.json
+// 1.20.1	2024-08-22T09:03:29.0467819	Backrooms Mod/Tags for minecraft:block
+ba407b7b8e9e9be5c5263164b7db2fb371162740 data\minecraft\tags\blocks\fence_gates.json
 583d9b1f13db473ca30fbe213948a7961a88caaf data\backrooms_mod\tags\blocks\metal_detector_valuable_blocks.json
+cb66d505dee4e7b0d9d8bf29afb4934548c1b779 data\fabric\tags\blocks\needs_tool_level_5.json
+94761f0557aa231a7d68a6015a6a6663a804c815 data\fabric\tags\blocks\needs_tool_level_4.json
+6a06ca7856c25c7af2e5eeb6fb7ed0a2210c0337 data\minecraft\tags\blocks\walls.json
+d9b4e360138d5aadd87db0be044f27d317fda717 data\minecraft\tags\blocks\needs_iron_tool.json
+c716880e6ff6532ef3f8279ddfa40285b01886f3 data\backrooms_mod\tags\blocks\minable\paxel.json
+8f3c87428c92e9b67c84a53dff0e386ffca16c19 data\minecraft\tags\blocks\mineable\pickaxe.json
+712a4de60c7f29776a4542bdf7b5d1d45162d2eb data\minecraft\tags\blocks\fences.json
+db6827545cd47ff7c2b1bf148e2e8e92d3dfb0bd data\minecraft\tags\blocks\needs_diamond_tool.json
