@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "pink_garnet",
+  "ingredient": {
+    "item": "backrooms_mod:nether_pink_garnet_ore_block"
+  },
+  "result": "backrooms_mod:pink_garnet"
+}

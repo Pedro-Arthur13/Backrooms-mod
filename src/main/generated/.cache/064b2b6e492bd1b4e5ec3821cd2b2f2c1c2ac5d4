@@ -1,0 +1,5 @@
+// 1.20.1	2024-07-06T17:06:34.1858789	Backrooms Mod/Tags for minecraft:block
+d9b4e360138d5aadd87db0be044f27d317fda717 data\minecraft\tags\blocks\needs_iron_tool.json
+db6827545cd47ff7c2b1bf148e2e8e92d3dfb0bd data\minecraft\tags\blocks\needs_diamond_tool.json
+7d9e747a0fc7bfa33e4cbc3aab8ba7772b191ca0 data\minecraft\tags\blocks\mineable\pickaxe.json
+583d9b1f13db473ca30fbe213948a7961a88caaf data\backrooms_mod\tags\blocks\metal_detector_valuable_blocks.json

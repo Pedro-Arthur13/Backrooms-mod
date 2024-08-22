@@ -1,0 +1,50 @@
+{
+  "item.backrooms_mod.pink_garnet": "Pink Garnet",
+  "item.backrooms_mod.raw_pink_garnet": "Raw Pink Garnet",
+  "item.backrooms_mod.metal_detector": "Metal Detector",
+
+  "block.backrooms_mod.pink_garnet_block": "Pink Garnet Block",
+  "block.backrooms_mod.raw_pink_garnet_block": "Raw Pink Garnet Block",
+  "block.backrooms_mod.end_pink_garnet_ore_block": "End Stone Pink Garnet ore Block",
+  "block.backrooms_mod.pink_garnet_ore_block": "Pink Garnet ore Block",
+  "block.backrooms_mod.nether_pink_garnet_ore_block": "Nether Pink Garnet ore Block",
+  "block.backrooms_mod.deepslate_pink_garnet_ore_block": "Deepslate Pink Garnet ore Block",
+  "block.backrooms_mod.sound_block": "Sound Block",
+
+  "block.backrooms_mod.pink_garnet_stairs": "Pink Garnet Stair",
+  "block.backrooms_mod.pink_garnet_slab": "Pink Garnet Slab",
+  "block.backrooms_mod.pink_garnet_button": "Pink Garnet Button",
+  "block.backrooms_mod.pink_garnet_pressure_plate": "Pink Garnet Pressure Plate",
+  "block.backrooms_mod.pink_garnet_fence": "Pink Garnet Fence",
+  "block.backrooms_mod.pink_garnet_gate": "Pink Garnet Gate",
+  "block.backrooms_mod.pink_garnet_wall": "Pink Garnet Wall",
+  "block.backrooms_mod.pink_garnet_door": "Pink Garnet Door",
+  "block.backrooms_mod.pink_garnet_trapdoor": "Pink Garnet Trapdoor",
+
+  "item.backrooms_mod.metal_detector.no_valuables": "No valuables found ",
+  "item.backrooms_mod.cauliflower": "Cauliflower",
+  "item.backrooms_mod.eat_diamond_pickaxe": "Diamond Pickaxe",
+
+  "item.backrooms_mod.peat_brick": "Peat Brick",
+
+  "item.backrooms_mod.pink_garnet_sword": "Pink Garnet Sword",
+  "item.backrooms_mod.pink_garnet_pickaxe": "Pink Garnet Pickaxe",
+  "item.backrooms_mod.pink_garnet_shovel": "Pink Garnet Shovel",
+  "item.backrooms_mod.pink_garnet_hoe": "Pink Garnet Hoe",
+  "item.backrooms_mod.pink_garnet_axe": "Pink Garnet Axe",
+  "item.backrooms_mod.pink_garnet_paxel": "Pink Garnet Paxel",
+
+
+  "block.backrooms_mod.backroom_wall": "Backrooms Wall",
+  "block.backrooms_mod.backroom_floor": "Backrooms Floor",
+  "block.backrooms_mod.backroom_light": "Backrooms Light",
+
+
+  "itemgroup.pink_garnet_group": "Pink Garnet Group",
+  "itemgroup.backrooms_mod_group": "Backroom Mod",
+
+  "tooltip.backrooms_mod.metal_detector.tooltip.shift": "Right click on blocks to find a valuable ores",
+  "tooltip.backrooms_mod.metal_detector.tooltip": "Press SHIFT for more Information",
+  "tooltip.backrooms_mod.sound_block.tooltip": "Plays a SUS sound"
+
+}
