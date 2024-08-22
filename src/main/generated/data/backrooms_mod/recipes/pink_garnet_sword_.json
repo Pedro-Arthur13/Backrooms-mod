@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "item": "minecraft:stick"
+    },
+    "P": {
+      "item": "backrooms_mod:pink_garnet"
+    }
+  },
+  "pattern": [
+    " P ",
+    " P ",
+    " M "
+  ],
+  "result": {
+    "item": "backrooms_mod:pink_garnet_sword"
+  },
+  "show_notification": true
+}
